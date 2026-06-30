@@ -35,13 +35,17 @@ function Navbar(){
                         </div>
 
                         {/* Mobile menu */}
-                        <div className={`md:hidden backdrop:backdrop-blur-lg bg-black/50 w-full top-[102px] left-0 absolute p-5  
-                            rounded-b-4xl z-50 animate-fade-in-down duration-50
+                        <div className={`md:hidden backdrop:backdrop-blur-lg bg-white w-full top-[102px] left-0 absolute p-5  
+                            rounded-b-4xl z-50 animate-fade-in-down duration-50 h-[480px]
                             ${
                                 menuOpen ? 'block' : 'hidden'
                             }`}>
                             
-                            <ul className='flex flex-col p-2 gap-5 text-white text-[16px]'>
+                            <div className='border-b-[0.1rem] border-gray-300 mb-5'>
+                                <h1 className='text-2xl font-semibold mb-5'>Menu</h1>
+                            </div>
+                            
+                            <ul className='flex flex-col p-2 gap-5 text-black text-[18px]'>
                                 <li><a href="">Home</a></li>
                                 <li><a href="">Shop</a></li>
                                 <li><a href="">Headphones</a></li>
@@ -49,6 +53,11 @@ function Navbar(){
                                 <li><a href="">Blog</a></li>
                                 <li><a href="">Contact</a></li>
                             </ul>
+
+                            <div className='flex items-center gap-2 mt-8 cursor-pointer'>
+                                    <a href="" className='text-2xl text-red-500 font-semibold'><VscAccount /></a>
+                                    <a href="" className='text-2xl text-red-500 font-semibold'>Account</a>
+                                </div>
                         </div>
 
                             <p className='text-3xl md:hidden'><BsCart2 /></p>

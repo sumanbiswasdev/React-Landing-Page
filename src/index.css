@@ -6,6 +6,8 @@
 
 @theme {
   --font-poppins: "Poppins", sans-serif; 
+
+  
   
 }
 
@@ -35,3 +37,4 @@
   /* Prevent line break */
   width: max-content;
 }
+

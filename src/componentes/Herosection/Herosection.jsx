@@ -62,8 +62,8 @@ const Herosection = () => {
     
   return (
     <header>
-        <div className="relative">
-            <img className="h-96 md:h-[800px] object-cover overflow-hidden"
+        <div className="relative ">
+            <img className="h-96 md:h-[800px] object-cover overflow-hidden "
             src={heroData[current].image} 
             alt="banner" />
             <div className='bg-black/40 inset-0 w-full absolute'>
@@ -71,7 +71,7 @@ const Herosection = () => {
             </div>
             <div className="absolute inset-0 flex justify-between items-center mx-5">
                 <button onClick={prevSlide} className="bg-white rounded-full p-2 cursor-pointer text-2xl"><IoIosArrowBack /></button>
-                    <div className="text-center text-white">
+                    <div className="text-center text-white ">
                         <p className="md:pb-5 md:text-[20px] text-[16px] font-medium mx-auto py-5">{heroData[current].title}</p>
                         <h1 className="md:pb-5 md:text-7xl text-3xl md:w-[800px] font-bold md:leading-20 mx-auto">{heroData[current].description}</h1>
                         <p className="md:pb-5 md:text-[22px] text-[14px] font-light mx-auto md:mt-5 md:mb-5 py-5">{heroData[current].paragraph}</p>

@@ -1,5 +1,6 @@
 import Navbar from './componentes/Navbar/Navbar'
 import Hersection from './componentes/Herosection/Herosection'
+import Logoslide from './componentes/Logoslide/Logoslide'
 
 
 function AllComponentes(){
@@ -9,6 +10,7 @@ function AllComponentes(){
         <>
             <Navbar></Navbar>
             <Hersection></Hersection>
+            <Logoslide></Logoslide>
         </>
 
         

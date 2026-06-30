@@ -6,7 +6,7 @@ import { BsCart2 } from "react-icons/bs";
 import { HiOutlineMenuAlt2 } from "react-icons/hi";
 import { IoClose } from "react-icons/io5";
 
-function Navbar(){
+const Navbar = () => {
 
     const [menuOpen, setmenuOpen] = useState(false)
 

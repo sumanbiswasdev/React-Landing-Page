@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import voltify from '../../assets/logos/voltify.png'
 import { IoIosSearch } from "react-icons/io";
 import { VscAccount } from "react-icons/vsc";

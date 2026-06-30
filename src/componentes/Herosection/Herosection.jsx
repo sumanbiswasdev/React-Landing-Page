@@ -1,5 +1,3 @@
-
-import Navbar from "../Navbar/Navbar";
 import bgimage1 from '../../assets/backgrounds/bgimage1.png'
 import bgimage2 from '../../assets/backgrounds/bgimage2.png'
 import bgimage3 from '../../assets/backgrounds/bgimage3.png'
@@ -7,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
 
 
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 const Herosection = () => {
 

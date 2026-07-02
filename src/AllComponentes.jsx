@@ -1,18 +1,11 @@
-import Navbar from './componentes/Navbar/Navbar'
-import Hersection from './componentes/Herosection/Herosection'
-import Logoslide from './componentes/Logoslide/Logoslide'
-import Card from './componentes/Card/Card'
-
+import Index from "./Index"
 
 function AllComponentes(){
 
     return(
 
         <>
-            <Navbar></Navbar>
-            <Hersection></Hersection>
-            <Logoslide></Logoslide>
-            <Card></Card>
+            <Index></Index>
         </>
 
         

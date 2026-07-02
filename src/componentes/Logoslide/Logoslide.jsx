@@ -6,8 +6,6 @@ import skullcandy from '../../assets/logos/skullcandy.png'
 import sony from '../../assets/logos/sony.png'
 import urbanista from '../../assets/logos/urbanista.png'
 
-import React from 'react'
-
 const Logoslide = () => {
     
     const infiniteLogos = [
@@ -26,7 +24,7 @@ const Logoslide = () => {
     <main>
         <section>
               <div className='bg-white'>
-                <div className='container mx-auto overflow-hidden py-5'>
+                <div className='container mx-auto overflow-hidden py-2'>
                   <div className='w-full animate-scroll gap-12 flex'>
 
                     {infiniteLogos.map((logo, index) => (

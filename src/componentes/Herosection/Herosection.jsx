@@ -75,9 +75,9 @@ const Herosection = () => {
                         <p className="md:pb-5 md:text-[20px] text-[16px] font-medium mx-auto py-5">{heroData[current].title}</p>
                         <h1 className="md:pb-5 md:text-7xl text-3xl md:w-[800px] font-bold md:leading-20 mx-auto">{heroData[current].description}</h1>
                         <p className="md:pb-5 md:text-[22px] text-[14px] font-light mx-auto md:mt-5 md:mb-5 py-5">{heroData[current].paragraph}</p>
-                        <button className="cursor-pointer px-5 py-4 bg-white rounded-full font-medium md:text-[16px] text-black">{heroData[current].btn}</button>
+                        <button className="cursor-pointer px-5 py-4 bg-white rounded-full font-medium md:text-[16px] text-black hover:bg-[#e8e8ef] transition-all ease-in-out duration-300">{heroData[current].btn}</button>
                     </div>
-                <button onClick={nextSlide} className="bg-white rounded-full p-2 cursor-pointer text-2xl"><IoIosArrowForward /></button>
+                <button onClick={nextSlide} className="bg-white rounded-full p-2 cursor-pointer text-2xl "><IoIosArrowForward /></button>
             </div>
         </div>
     </header>

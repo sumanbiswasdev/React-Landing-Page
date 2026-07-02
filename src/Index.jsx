@@ -9,6 +9,10 @@ import headphones from './assets/products/headphones.png'
 import microphone from './assets/products/microphone.png'
 import smartwatch from './assets/products/smartwatch.png'
 
+import bgimage4 from './assets/backgrounds/bgimage4.png'
+
+
+
 const Index = () => {
 
     const featuredItems = [
@@ -54,9 +58,9 @@ const Index = () => {
             <Herosection></Herosection>
             <Logoslide></Logoslide>
 
-            <section>
-                    <div className=' bg-white'>
-                        <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-5 rounded-lg p-8'>
+            <section className='bg-white'>
+
+                        <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4 p-5 md:p-0'>
                             {featuredItems.map((item) => (
                                 <Card 
                                 key={item.id}
@@ -68,8 +72,24 @@ const Index = () => {
                                 />
                             ))}
                         </div>
+            </section>
 
+            <section className='bg-white'>
+                <div className='container mx-auto relative'>
+                    <div className='mt-5 mx-5 md:mx-0 overflow-hidden rounded-lg flex flex-col'>
+                        <img className='w-full h-[350px] md:h-full object-cover rounded-2xl'
+                        src={bgimage4} 
+                        alt="banner" />
+                        <div className='absolute inset-0 py-8 px-12 md:mt-16'>
+                            <p className='text-white mb-5 md:text-lg'>Premium Standards</p>
+                            <h1 className='font-bold mb-5 text-3xl md:text-[3.8rem] w-[450px] md:w-[600px] bg-gradient-to-r from-white via-gray-400 to-gray-500 bg-clip-text text-transparent'>Elevate Your Audio Experience with Sony Headphones</h1>
+                            <p className='text-white mb-5 md:text-xl'>Elevate Your life with electronic designed for style and performance.</p>
+                            <button className='bg-white px-5 py-3 text-black rounded-full md:mt-5'>Shop Now</button>
+                        </div>
+                        
                     </div>
+                    
+                </div>
             </section>
 
         </>

@@ -7,10 +7,11 @@ import Card from './componentes/Card/Card'
 import earphones from './assets/products/earphones.png'
 import headphones from './assets/products/headphones.png'
 import microphone from './assets/products/microphone.png'
+import smartwatch from './assets/products/smartwatch.png'
 
 const Index = () => {
 
-    const featuredItems =[
+    const featuredItems = [
 
         {
             id: 1,
@@ -42,7 +43,7 @@ const Index = () => {
             quantity: '20 Products',
             image: smartwatch,
             button: 'View products' ,
-        },
+        }
 
     ]
 
@@ -54,9 +55,18 @@ const Index = () => {
             <Logoslide></Logoslide>
 
             <section>
-                    <div className='bg-white container mx-auto'>
-                        <div className='grid grid-cols-2 md:grid-cols-3 gap-3'>
+                    <div className=' bg-white'>
+                        <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-5 rounded-lg p-8'>
+                            {featuredItems.map((item) => (
+                                <Card 
+                                key={item.id}
+                                title={item.title}
+                                quantity={item.quantity}
+                                image={item.image}
+                                button={item.button}
 
+                                />
+                            ))}
                         </div>
 
                     </div>

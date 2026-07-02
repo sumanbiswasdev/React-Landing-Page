@@ -4,20 +4,22 @@ const Card = ({id, title, quantity, image, button}) => {
   return (
     <main>
         <section>
-                <div className='flex flex-col justify-between items-center gap-4 p-4 overflow-hidden h-full'>
+                <div className='max-w-sm rounded-2xl overflow-hidden bg-[#f4f4f5] flex flex-col h-full p-8'>
 
-                    <div>
-                        <h1>{title}</h1>
-                        <p>{quantity}</p>
+                    <div className="mb-5">
+                        <h1 className="font-semibold text-[25px]">{title}</h1>
+                        <p className="font-medium text-gray-500 text-[14px]">{quantity}</p>
                     </div>
 
                     <div>
-                        <img className='h-48 w-full object-cover'
+                        <img className=' w-full object-cover'
                         src={image} 
                         alt={title} />
                     </div>
 
-                    <button>{button}</button>
+                    <button className="bg-white p-3 mt-8 w-44 rounded-full font-semibold text-[16px] cursor-pointer">
+                        {button}
+                    </button>
 
                     
                 </div>

@@ -96,27 +96,36 @@ const Index = () => {
 
             <section>
                 <div className='bg-white'>
-                    <div className='container mx-auto relative'>
-                        <div className='py-5 flex justify-between items-center'>
-                            <div className='text-center'>
-                                <p>Unrivaled Precision</p>
-                                <h1>Where Innovation Meets Immersive Sound</h1>
-                                <p>Power meets precision in every detail.</p>
-                                <button>Shop Now</button>
-                                <img className='w-full'
+                    <div className='container mx-auto'>
+                        <div className='py-5 md:flex justify-between items-center space-y-5 md:space-y-0 mx-5 md:mx-0'>
+                            <div className='relative'>
+
+                                <img className='w-full object-cover'
                                 src={bgimage5}
                                 alt="" />
-                            </div>
 
-                            <div className='text-center'>
-                                <p>Unrivaled Precision</p>
-                                <h1>Where Innovation Meets Immersive Sound</h1>
-                                <p>Power meets precision in every detail.</p>
-                                <button>Shop Now</button>
-                                <img className='w-full'
+                                <div className='absolute inset-0'>
+                                    <p className='text-lg'>Unrivaled Precision</p>
+                                    <h1>Where Innovation Meets Immersive Sound</h1>
+                                    <p>Power meets precision in every detail.</p>
+                                    <button>Shop Now</button>
+                                </div>
+                            </div>
+                            <div className='relative'>
+
+                                <div className='absolute inset-0'>
+                                    <p className='text-lg'>Unrivaled Precision</p>
+                                    <h1>Where Innovation Meets Immersive Sound</h1>
+                                    <p>Power meets precision in every detail.</p>
+                                    <button>Shop Now</button>
+                                </div>
+
+                                <img className='w-full object-cover'
                                 src={bgimage6}
                                 alt="" />
                             </div>
+
+                            
 
                         </div>
                     </div>

@@ -92,6 +92,33 @@ const Index = () => {
                 </div>
             </section>
 
+            <section>
+                <div className='container mx-auto mt-5'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
+                        <div className='text-center'>
+                            <p>Unrivaled Precision</p>
+                            <h1>Where Innovation Meets Immersive Sound</h1>
+                            <p>Power meets precision in every detail.</p>
+                            <button>Shop Now</button>
+                            <img 
+                            src=""
+                            alt="" />
+                        </div>
+                        
+                        <div className='text-center'>
+                            <p>Unrivaled Precision</p>
+                            <h1>Where Innovation Meets Immersive Sound</h1>
+                            <p>Power meets precision in every detail.</p>
+                            <button>Shop Now</button>
+                            <img 
+                            src=""
+                            alt="" />
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
         </>
   )
 }

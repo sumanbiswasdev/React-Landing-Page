@@ -10,6 +10,8 @@ import microphone from './assets/products/microphone.png'
 import smartwatch from './assets/products/smartwatch.png'
 
 import bgimage4 from './assets/backgrounds/bgimage4.png'
+import bgimage5 from './assets/backgrounds/bgimage5.png'
+import bgimage6 from './assets/backgrounds/bgimage6.png'
 
 
 
@@ -76,7 +78,7 @@ const Index = () => {
 
             <section className='bg-white'>
                 <div className='container mx-auto relative'>
-                    <div className='mt-5 mx-5 md:mx-0 overflow-hidden rounded-lg flex flex-col'>
+                    <div className='py-5 mx-5 md:mx-0 overflow-hidden rounded-lg flex flex-col'>
                         <img className='w-full h-[350px] md:h-full object-cover rounded-2xl'
                         src={bgimage4} 
                         alt="banner" />
@@ -93,28 +95,30 @@ const Index = () => {
             </section>
 
             <section>
-                <div className='container mx-auto mt-5'>
-                    <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
-                        <div className='text-center'>
-                            <p>Unrivaled Precision</p>
-                            <h1>Where Innovation Meets Immersive Sound</h1>
-                            <p>Power meets precision in every detail.</p>
-                            <button>Shop Now</button>
-                            <img 
-                            src=""
-                            alt="" />
-                        </div>
-                        
-                        <div className='text-center'>
-                            <p>Unrivaled Precision</p>
-                            <h1>Where Innovation Meets Immersive Sound</h1>
-                            <p>Power meets precision in every detail.</p>
-                            <button>Shop Now</button>
-                            <img 
-                            src=""
-                            alt="" />
-                        </div>
+                <div className='bg-white'>
+                    <div className='container mx-auto relative'>
+                        <div className='py-5 flex justify-between items-center'>
+                            <div className='text-center'>
+                                <p>Unrivaled Precision</p>
+                                <h1>Where Innovation Meets Immersive Sound</h1>
+                                <p>Power meets precision in every detail.</p>
+                                <button>Shop Now</button>
+                                <img className='w-full'
+                                src={bgimage5}
+                                alt="" />
+                            </div>
 
+                            <div className='text-center'>
+                                <p>Unrivaled Precision</p>
+                                <h1>Where Innovation Meets Immersive Sound</h1>
+                                <p>Power meets precision in every detail.</p>
+                                <button>Shop Now</button>
+                                <img className='w-full'
+                                src={bgimage6}
+                                alt="" />
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </section>

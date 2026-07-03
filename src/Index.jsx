@@ -84,7 +84,7 @@ const Index = () => {
                             <p className='text-white mb-5 md:text-lg'>Premium Standards</p>
                             <h1 className='font-bold mb-5 text-3xl md:text-[3.8rem] w-[450px] md:w-[600px] bg-gradient-to-r from-white via-gray-400 to-gray-500 bg-clip-text text-transparent'>Elevate Your Audio Experience with Sony Headphones</h1>
                             <p className='text-white mb-5 md:text-xl'>Elevate Your life with electronic designed for style and performance.</p>
-                            <button className='bg-white px-5 py-3 text-black rounded-full md:mt-5'>Shop Now</button>
+                            <button className='bg-white px-8 text-[18px] cursor-pointer py-3 text-black rounded-full md:mt-5 hover:bg-[#e8e8ef] transition-all ease-in-out duration-300'>Shop Now</button>
                         </div>
                         
                     </div>

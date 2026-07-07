@@ -13,6 +13,8 @@ import bgimage4 from './assets/backgrounds/bgimage4.png'
 import bgimage5 from './assets/backgrounds/bgimage5.png'
 import bgimage6 from './assets/backgrounds/bgimage6.png'
 
+import video1 from './assets/video/video1.mp4'
+
 
 
 const Index = () => {
@@ -135,6 +137,40 @@ const Index = () => {
                         </div>
                         
                     </div>
+                </div>
+            </section>
+
+            <section>
+                <div className='bg-white'>
+                    <div className='container mx-auto'>
+                        <div className='flex flex-col pt-16 pb-8'>
+
+                            <div className='md:flex items-center gap-8'>
+                                <h1 className='font-medium mx-5 md:mx-0 text-2xl md:text-5xl'>Capture Every Detail</h1>
+                                <p className='font-normal text-lg mx-5 md:mx-0 mt-5 md:mt-0 text-gray-500'>Capture every nuance of your voice with this high-performance microphone.</p>
+                            </div>
+
+                            <div className='mt-8 mx-auto md:mx-0 relative'>
+
+                                <video className='w-96 md:w-full rounded-3xl' autoPlay loop controls>
+                                    <source src={video1} type="" />
+                                </video>
+
+                                <div className='absolute inset-0 flex flex-col justify-center items-center text-white bg-black/30 py-5'>
+                                    <p>Highest</p>
+                                    <h1>Redifine Your Sound with Precision Microfones</h1>
+                                    <p>Innovative tech, timeless design, ultimate experience.</p> 
+                                    <button className='bg-white px-8 text-[18px] cursor-pointer py-3 text-black 
+                                    rounded-full md:mt-5 hover:bg-[#e8e8ef] transition-all ease-in-out duration-300'>Shop Now <span>&rarr;</span></button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
                 </div>
             </section>
 

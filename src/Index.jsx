@@ -13,7 +13,7 @@ import bgimage4 from './assets/backgrounds/bgimage4.png'
 import bgimage5 from './assets/backgrounds/bgimage5.png'
 import bgimage6 from './assets/backgrounds/bgimage6.png'
 
-import video1 from './assets/video/video1.mp4'
+import video1 from '../public/video1.mp4'
 
 
 
@@ -116,7 +116,7 @@ const Index = () => {
 
                             </div>
                             {/* Left card */}
-                            <div className='bg-[#EEEEEE] mt-5 md:mt-0 relative rounded-2xl flex flex-col justify-between items-center overflow-hidden'>
+                            <div className='bg-[#EEEEEE] mt-5 mb-5 md:mb-0 md:mt-0 relative rounded-2xl flex flex-col justify-between items-center overflow-hidden'>
 
                                 <div className='md:w-full mb-24 md:mb-0 md:mt-0'>
                                     <img className='w-full h-auto object-cover' src={bgimage6} alt="" />
@@ -152,15 +152,16 @@ const Index = () => {
 
                             <div className='mt-8 mx-auto md:mx-0 relative'>
 
-                                <video className='w-96 md:w-full rounded-3xl' autoPlay loop controls>
+                                <video className='w-96 md:w-full md:h-auto rounded-2xl object-cover z-0' autoPlay muted loop playsInline>
                                     <source src={video1} type="" />
                                 </video>
 
-                                <div className='absolute inset-0 flex flex-col justify-center items-center text-white bg-black/30 py-5'>
-                                    <p>Highest</p>
-                                    <h1>Redifine Your Sound with Precision Microfones</h1>
-                                    <p>Innovative tech, timeless design, ultimate experience.</p> 
-                                    <button className='bg-white px-8 text-[18px] cursor-pointer py-3 text-black 
+                                <div className='absolute inset-0 mx-auto md:mx-0 flex flex-col justify-center items-center
+                                 text-white md:space-y-1 text-center w-[400px] md:w-full'>
+                                    <p className='text-[15px] md:text-[18px] font-medium'>Highest Qualitys</p>
+                                    <h1 className='text-[25px] md:text-[4rem] md:w-[900px] font-bold'>Redifine Your Sound with Precision Microfones</h1>
+                                    <p className='text-[13px] w-[390px] md:text-[20px] text-gray-300 md:w-full font-light'>Innovative tech, timeless design, ultimate experience.</p> 
+                                    <button className='bg-white text-[18px] cursor-pointer p-2 mt-2 md:mt-0 md:px-8 md:py-3 text-black 
                                     rounded-full md:mt-5 hover:bg-[#e8e8ef] transition-all ease-in-out duration-300'>Shop Now <span>&rarr;</span></button>
 
                                 </div>
